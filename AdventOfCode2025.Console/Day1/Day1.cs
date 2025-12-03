@@ -1,10 +1,10 @@
-﻿namespace AdventOfCode2025.Console;
+﻿namespace AdventOfCode2025.Console.Day1;
 
-public class Day1
+public static class Day1
 {
     public static int FindResult()
     {
-        var textInput = File.ReadAllText(Path.Combine(AppContext.BaseDirectory, "day1.txt"));
+        var textInput = File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), "Day1", "day1.txt"));
 
         var safeInputs = textInput.Split(Environment.NewLine).Select(x =>
         {
