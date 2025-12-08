@@ -1,5 +1,5 @@
-﻿using AdventOfCode2025.Console.Day4;
+﻿using AdventOfCode2025.Console.Day5;
 
-var result = Day4.Solve();
+var result = Day5.Solve();
 
 Console.WriteLine(result);
